@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="sm:bg-[url('/bg-image.png')] bg-[url('/rotatedimg.png')] bg-cover h-[25rem] w-full">
-      <div className="flex flex-col items-center justify-center">
+    <div className="sm:bg-[url('/bg-image.png')] bg-[url('/rotatedimg.png')] bg-cover h-[calc(100vh-0rem)] w-full">
+      <div className="flex flex-col items-center justify-center h-[calc(100vh-4rem)]">
         <div className="relative w-[171px] h-[130px] lg:w-[303px] lg:h-[230px] z-10">
           <Image
             fill
